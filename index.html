@@ -207,16 +207,54 @@
       <!-- ✅ Added more vertical gap between sections -->
       <div class="mt-32"></div>
 
+      
       <!-- Latest Deal Section -->
-      <section class="text-center">
-        <h2 class="text-3xl font-bold">
-          <span class="text-orange-600">Latest</span> Deals
-        </h2>
-        <p class="mt-2 text-gray-500 max-w-xl mx-auto">
-          Indulge your senses with the beauty and fragrance of our fresh flower shop.
-          From classic roses to exotic blooms, we offer a wide variety of fresh.
-        </p>
-      </section>
+<section class="text-center mt-16">
+  <h2 class="text-3xl font-bold">
+    <span class="text-orange-600">Latest</span> Deals
+  </h2>
+  <p class="mt-2 text-gray-500 max-w-xl mx-auto">
+    Indulge your senses with the beauty and fragrance of our fresh flower shop.
+    From classic roses to exotic blooms, we offer a wide variety of fresh.
+  </p>
+
+ <!-- Grid layout -->
+ <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 max-w-6xl mx-auto">
+    <!-- Left column (2 stacked images) -->
+    <div class="flex flex-col gap-3">
+      <!-- Deal 1 -->
+      <div class="relative h-40 rounded-lg overflow-hidden">
+        <img src="assets/deal-bloom.png" alt="Bloom Deal" class="w-full h-full object-cover" />
+        <div class="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center text-center">
+          <p class="text-white text-lg font-bold">60% Off | Bloom Plant</p>
+          <a href="https://www.w3.org/Provider/Style/dummy.html" class="text-white text-sm border-b border-white hover:text-orange-300 mt-1">Shop Now</a>
+        </div>
+      </div>
+
+      <!-- Deal 2 -->
+      <div class="relative h-40 rounded-lg overflow-hidden">
+        <img src="assets/deal-ana.png" alt="Ana Deal" class="w-full h-full object-cover" />
+        <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-center">
+          <p class="text-white text-lg font-bold">30% Off | Ana Plant</p>
+          <a href="https://www.w3.org/Provider/Style/dummy.html" class="text-white text-sm border-b border-white hover:text-orange-300 mt-1">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <!-- Right column (larger image) -->
+    <div class="relative h-[332px] rounded-lg overflow-hidden md:col-span-2">
+      <img src="assets/deal-zabo.png" alt="Zabo Deal" class="w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-center">
+        <p class="text-white text-2xl font-bold">25% Off | Zabo Plant</p>
+        <a href="https://www.w3.org/Provider/Style/dummy.html" class="text-white text-base border-b border-white hover:text-orange-300 mt-2">Shop Now</a>
+      </div>
+    </div>
+  </div>
+
+
+    </div>
+  </div>
+</section>
+
 
       <div class="my-20"></div>
     </div>
