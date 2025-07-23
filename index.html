@@ -257,15 +257,72 @@
 <div class="my-20"></div>
 
 <!-- Newsletter Section -->
-<section class="relative bg-cover bg-center h-72 flex items-center justify-center" style="background-image: url('assets/news-letter-bg.png');">
-  <div class="text-center text-white px-4">
-    <h2 class="text-3xl md:text-4xl font-bold mb-4">Join the colorful Bunch</h2>
-    <form class="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto">
-      <input type="email" placeholder="Write email" class="px-4 py-2 rounded w-full sm:w-72 text-black focus:outline-none" />
-      <button type="submit" class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded">Subscribe</button>
-    </form>
+<section class="relative bg-cover bg-center h-96 flex items-center justify-center" style="background-image: url('assets/news-letter-bg.png'); width: 100vw; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw;">
+  <div class="text-center text-white px-4 w-full">
+    <h2 class="text-3xl md:text-5xl font-semi-bold mb-5">Join the colorful Bunch</h2>
+    <form class="flex items-center justify-center gap-0 max-w-4xl mx-auto w-full">
+  <!-- Email Input (75%) -->
+  <input
+    type="email"
+    placeholder="Write email"
+    class="px-6 py-3 w-[75%] text-black focus:outline-none"
+  />
+  
+  <!-- Subscribe Button (25%) -->
+  <button
+    type="submit"
+    class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 font-semibold w-[20%]"
+  >
+    Subscribe
+  </button>
+</form>
+
   </div>
 </section>
     </div>
+    
+     <!-- Footer Section -->
+<footer class="bg-white text-gray-700 py-12 px-6 md:px-20">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 items-start">
+    <!-- Logo and Description -->
+    <div class="md:col-span-1">
+      <div class="flex items-center gap-2 mb-2">
+        <img src="assets/logo.png" alt="Logo" class="w-28 h-18" />
+        
+      </div>
+      <p class="text-sm text-gray-500">
+        Indulge your senses with the<br>
+         beauty and fragrance of our fresh<br>
+        flower shop.
+      </p>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="md:col-span-2 grid grid-cols-2 gap-8 text-sm">
+      <ul class="space-y-3 display: flex flex-col">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <ul class="space-y-3">
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Help Center</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="flex justify-start md:justify-center  items-center space-x-4 mt-6 md:mt-0">
+      <a href="#"><img src="assets/icon-linkedin.png" alt="LinkedIn" class="w-5 h-5" /></a>
+      <a href="#"><img src="assets/icon-twitter.png" alt="Twitter" class="w-5 h-5" /></a>
+      <a href="#"><img src="assets/icon-facebook.png" alt="Facebook" class="w-5 h-5" /></a>
+      <a href="#"><img src="assets/icon-youtube.png" alt="YouTube" class="w-5 h-5" /></a>
+    </div>
+  </div>
+</footer>
   </body>
 </html>
