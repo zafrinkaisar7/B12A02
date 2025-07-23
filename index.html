@@ -191,11 +191,15 @@
 
       <section class="flex flex-col-reverse md:flex-row items-center gap-6 mt-24">
         <!-- Image Block -->
-        <div class="relative w-full md:w-1/2 flex items-center justify-center">
-          <img src="assets/flower-store.png" alt="Flower Shop" class="w-full max-w-[500px] object-cover rounded-lg" />
-          <img src="assets/trusted-badge.png" alt="Trusted Seller"
-            class="absolute top-0 right-16 w-28 md:w-40 animate-spin-slow -translate-y-1/2" />
-        </div>
+         
+<div class="relative w-full md:w-1/2 flex items-center justify-center">
+  <img src="assets/flower-store.png" alt="Flower Shop" class="w-full max-w-[500px] object-cover rounded-lg" />
+
+  <!-- Trusted Badge: Hidden on mobile, shown on md+ -->
+  <img src="assets/trusted-badge.png" alt="Trusted Seller"
+    class="hidden md:block absolute top-0 right-16 w-28 md:w-40 animate-spin-slow -translate-y-1/2" />
+</div>
+
 
         <!-- Content Block -->
         <div class="w-full md:w-1/2 text-left">
